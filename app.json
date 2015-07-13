@@ -1,0 +1,6 @@
+{
+  "name": "Angular Flyweight",
+  "description": "A sample application using AngularJS and Flyweight pattern",
+  "repository": "https://github.com/iranreyes/angular-flyweight.git",
+  "keywords": ["angularjs", "flyweight", "pattern"]
+}

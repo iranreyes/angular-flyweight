@@ -1,0 +1,26 @@
+{
+  "name": "angular-flyweight",
+  "version": "0.0.1",
+  "description": "A sample AngularJS 1.x that use flyweight pattern",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "~4.9.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iranreyes/angular-flyweight"
+  },
+  "keywords": [
+    "angularjs",
+    "heroku",
+    "express",
+    "flyweight"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,26 @@
+<h4 class="title">Create Phone</h4>
+<form ng-submit="fly.addPhone()">
+	<div class="form-group">
+		<label for="serialInput">Serial</label>
+		<input type="text" class="form-control" id="serialInput" placeholder="Serial" required ng-model="fly.serial">
+	</div>
+	<div class="form-group">
+		<label for="brandSelect">Brand</label>
+		<select class="form-control" id="brandSelect" ng-model="fly.brand">
+			<option>Apple</option>
+			<option>HTC</option>
+			<option>Alcatel</option>
+			<option>Sony</option>
+			<option>Samsung</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label for="modelInput">Model</label>
+		<input type="text" class="form-control" id="modelInput" placeholder="Model" required ng-model="fly.model">
+	</div>
+	<div class="form-group">
+		<label for="checkoutDate">Checkout date</label>
+		<input type="date" class="form-control" id="checkoutDate" placeholder="Checkout date" required ng-model="fly.check">
+	</div>
+	<button type="submit" class="btn btn-default">Submit</button>
+</form>
